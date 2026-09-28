@@ -1,0 +1,27 @@
+# Vault tokens / credentials
+.env
+*.env
+*.token
+*.tokens
+*.secret
+*.secrets
+
+# Private keys / certificates
+*.key
+*.pem
+
+# Terraform/state if added later
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
