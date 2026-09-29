@@ -453,61 +453,20 @@ Production hardening, TLS, Raft storage, audit devices, snapshots, AppRole confi
 
 ## 16. Evidence
 
-Screenshots can be added here to document the verification.
+<img width="725" height="346" alt="Screenshot 2026-09-29 030319" src="https://github.com/user-attachments/assets/6d110f1b-d33d-4e46-a9ff-dd07a06ca311" />
 
-Suggested evidence:
+<img width="1891" height="542" alt="Screenshot 2026-09-29 030329" src="https://github.com/user-attachments/assets/b47c0382-6022-4e6b-80f3-3523553ea267" />
 
-**Vault Status and KV v2 Mount**
+<img width="920" height="115" alt="Screenshot 2026-09-29 030450" src="https://github.com/user-attachments/assets/f80a4d3b-076b-4157-af62-c2ad3bb44401" />
 
-Add screenshot showing:
+<img width="928" height="768" alt="Screenshot 2026-09-29 031337" src="https://github.com/user-attachments/assets/2e95f891-0d56-4c61-a34e-7348e4de3076" />
 
-```bash
-vault status
-vault secrets list -detailed
-```
+<img width="932" height="685" alt="Screenshot 2026-09-29 031347" src="https://github.com/user-attachments/assets/05607cfe-b76e-4cbb-b35f-6df82e203fcc" />
 
-**Least-Privilege Policy**
+<img width="925" height="540" alt="Screenshot 2026-09-29 031444" src="https://github.com/user-attachments/assets/7f62f31e-3a46-47fe-b13f-a1743e9c59ab" />
 
-Add screenshot showing:
+<img width="942" height="516" alt="Screenshot 2026-09-29 031741" src="https://github.com/user-attachments/assets/35060e14-accd-41bd-8639-e17e67b92c89" />
 
-```bash
-vault policy read demo-a-reader
-```
-
-Do not include any token values.
-
-**Restricted Token Policy Assignment**
-
-Add screenshot showing only the assigned policy names.
-
-Do not expose the actual token.
-
-**Secret Permission Checks**
-
-Add screenshot showing:
-
-- `demo-a` read succeeds.
-- `demo-b` read is denied.
-- Updates are denied.
-
-**Automated Verification**
-
-Add screenshot showing:
-
-```bash
-./scripts/verify.sh
-```
-
-with:
-
-```text
-Passed: 9
-Failed: 0
-
-ALL TESTS PASSED
-```
-
----
 
 ## 17. Repository Structure
 
