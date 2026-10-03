@@ -24,7 +24,7 @@ The Vault development server is used for this assessment. The development server
 - Vault address: `http://127.0.0.1:8200`
 - Ubuntu 22.04.5 LTS on WSL2
 
-The development server automatically provides the `secret/` KV v2 secrets engine.
+The development server automatically provides the `secret/` KV v2 secrets engine
 
 The mount was verified using:
 
